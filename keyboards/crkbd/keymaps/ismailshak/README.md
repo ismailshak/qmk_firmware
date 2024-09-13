@@ -2,6 +2,20 @@
 
 Jotting down things so I don't forget how I did stuff
 
+## Configuration
+
+Setup `qmk`
+
+```
+qmk setup
+```
+
+Setting compilation defaults
+
+```bash
+qmk config user.keyboard=crkbd user.keymap=ismailshak
+```
+
 ## Pulling latest from upstream
 
 1. Be on master `git checkout master`
